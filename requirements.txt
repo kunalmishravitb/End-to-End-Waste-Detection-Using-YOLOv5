@@ -1,0 +1,57 @@
+dill>=0.3.7
+from-root>=1.0.2
+notebook>=7.1.0
+gdown  # For downloading models from Google Drive
+flask-cors
+flask
+
+# YOLOv5 Requirements
+gitpython>=3.1.44
+matplotlib>=3.8.2
+numpy>=1.26.3
+opencv-python>=4.9.0.80
+Pillow>=10.2.0
+psutil>=5.9.8  # System resources
+PyYAML>=6.0.1
+requests>=2.31.0
+scipy>=1.11.3
+thop>=0.1.1.post2209072238  # FLOPs computation
+torch>=2.2.1  # Check latest stable version: https://pytorch.org/get-started/locally
+torchvision>=0.17.1
+tqdm>=4.66.2
+ultralytics>=8.1.25  # YOLOv5
+
+# Logging
+tensorboard>=2.16.2
+# clearml>=1.14.4
+# comet
+
+# Plotting
+pandas>=2.2.0
+seaborn>=0.13.2
+
+# Export (Commented out if not needed)
+# coremltools>=6.4.0  # CoreML export
+# onnx>=1.14.0  # ONNX export
+# onnx-simplifier>=0.4.35  # ONNX simplifier
+# nvidia-pyindex  # TensorRT export
+# nvidia-tensorrt  # TensorRT export
+# scikit-learn<=1.3.2  # CoreML quantization
+# tensorflow>=2.15.0  # TensorFlow exports
+# tensorflowjs>=4.15.0  # TF.js export
+# openvino-dev  # OpenVINO export
+
+# Deployment
+# setuptools>=68.2.2  # Latest stable
+# tritonclient[all]~=2.37.0
+
+# Extras
+ipython>=8.20.0
+psutil>=5.9.8  # System utilization
+thop>=0.1.1.post2209072238  # FLOPs computation
+# mss  # Screenshots
+# albumentations>=1.4.1
+# pycocotools>=2.0.7  # COCO mAP
+
+# Install local package
+-e .
